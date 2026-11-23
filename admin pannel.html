@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shofi-Xe Admin</title>
+<style>
+body{font-family:Arial;display:flex;margin:0;background:#f4f4f4}
+.sidebar{width:220px;background:#111;color:white;height:100vh;padding:20px}
+.sidebar h2{color:#ff6b00}
+.sidebar a{color:white;display:block;padding:12px;text-decoration:none}
+.sidebar a:hover{background:#ff6b00}
+.main{flex:1;padding:20px}
+.cards{display:flex;gap:15px}
+.card{background:white;padding:20px;border-radius:10px;flex:1}
+table{width:100%;background:white;border-collapse:collapse;margin-top:20px}
+th,td{padding:12px;border-bottom:1px solid #ddd;text-align:left}
+input{padding:10px;margin:5px;width:200px}
+button{background:#ff6b00;color:white;border:none;padding:10px 20px;border-radius:5px}
+</style>
+</head>
+<body>
+<div class="sidebar">
+<h2>Shofi-Xe Admin</h2>
+<a href="#">Dashboard</a>
+<a href="#">Products</a>
+<a href="#">Orders</a>
+<a href="#">Users</a>
+</div>
+<div class="main">
+<h1>Dashboard</h1>
+<div class="cards">
+<div class="card"><h3>120</h3><p>Total Products</p></div>
+<div class="card"><h3>45</h3><p>Total Orders</p></div>
+<div class="card"><h3>30</h3><p>Total Users</p></div>
+<div class="card"><h3>Rs 85,000</h3><p>Total Sale</p></div>
+</div>
+<h2>Add New Product</h2>
+<input placeholder="Product Name">
+<input placeholder="Price">
+<button>Add Product</button>
+<h2>Products List</h2>
+<table>
+<tr><th>Name</th><th>Price</th><th>Action</th></tr>
+<tr><td>Kurti</td><td>Rs 2500</td><td>Delete</td></tr>
+<tr><td>Shoes</td><td>Rs 3500</td><td>Delete</td></tr>
+<tr><td>Hand Bag</td><td>Rs 1800</td><td>Delete</td></tr>
+</table>
+</div>
+</body>
+</html>
